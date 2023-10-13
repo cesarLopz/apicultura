@@ -954,8 +954,8 @@ ul.breadcrumb,
 .breadcrumb > li.open > ul.dropdown-menu a:hover
 {
 	background-color: #754404;
-	color:#666666;
-	font-size:1em;
+	color:gray;
+    font-size: medium;
 }
 a.fot-link:hover {
     font-weight: bold !important;
