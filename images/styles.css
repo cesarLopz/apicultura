@@ -1791,6 +1791,9 @@ transition-delay:.2s;
     .menu-head-right {
             padding-left: 40px;
     }
+    #menu-movil{
+        display: none;
+    }
 }
 @media screen and (max-width: 1790px) {
     .menu-head-right {
@@ -1930,8 +1933,19 @@ transition-delay:.2s;
 		max-height:185px;
 		background-size:100% 185px;
     }
+    .col-sm-9 {
+        display: block !important;
+    }
 }
+
 @media screen and (max-width: 768px) {
+    #menu-escritorio{
+        display: none;
+    }
+    
+    #menu-movil{
+        display: block;
+    }
     #social-net,.socicon,.txt-home {
         font-size: 11px;
     }
