@@ -260,7 +260,7 @@ th {
     border-bottom: 0px;
 }
 a:link {
-    color:#FFFFFF !important;
+    color:#FFFFFF;
 }
 a:active {
     font-weight: bold !important;
