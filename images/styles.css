@@ -291,6 +291,14 @@ web:active {
 web:hover {
     color:#754404 !important;
 }
+.cuadro1{
+    background-color:#e0a306;
+}
+.cuadro2{
+    background-color: #754404;
+    color: #FFFFFF;
+}
+
 .logos{
 	padding-top:5px!important;
 	padding-bottom:5px!important;
@@ -1787,12 +1795,15 @@ transition-delay:.2s;
     .row {margin-left: -40px;/*-30px;*/}
     
 }
-@media screen and (max-width: 1790px) {
+@media screen and (max-width: 2530px) {
     .menu-head-right {
             padding-left: 40px;
     }
     #menu-movil{
         display: none;
+    }
+    .fotico {
+        height: 300px;
     }
 }
 @media screen and (max-width: 1790px) {
@@ -1920,6 +1931,10 @@ transition-delay:.2s;
     
 }
 @media screen and (max-width: 800px) {
+    .fotico {
+        width: 200px;
+        height: auto;
+    }
     .pix {
         width: 127px;
         height: 81px;
