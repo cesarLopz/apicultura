@@ -1802,15 +1802,16 @@ transition-delay:.2s;
     #menu-movil{
         display: none;
     }
-    .fotico {
-        height: 300px;
-    }
+    
 }
 @media screen and (max-width: 1790px) {
     .menu-head-right {
             padding-left: 40px;
     }
     #destiny-map {display: none;}
+    .fotico {
+        height: 300px;
+    }
 }
 @media screen and (max-width: 1565px) {
     .menu-head-right {
@@ -1931,10 +1932,6 @@ transition-delay:.2s;
     
 }
 @media screen and (max-width: 800px) {
-    .fotico {
-        width: 200px;
-        height: auto;
-    }
     .pix {
         width: 127px;
         height: 81px;
@@ -2035,7 +2032,12 @@ transition-delay:.2s;
         padding-bottom: 5px !important;
     }
 } 
-
+@media screen and (max-width:464px) {
+    .fotico {
+        width: 225px;
+        height: auto;
+    }
+}
 @media screen and (max-width: 360px) {
        .container-fluid > .sidebar-nav {
                 margin-right: -40px;
