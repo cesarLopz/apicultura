@@ -2359,18 +2359,15 @@ transition-delay:.2s;
     }
 }
 @media screen and (min-width: 500px) {
-    #posterEvento {
-        height: 500px;
-        width: auto; /* Maintain the original aspect ratio */
+    #posterEvento{
+      height: 500px
     }
-}
-
-@media screen and (max-width: 500px) {
-    #posterEvento {
-        width: 80%; /* Limit the width to 80% of the container */
-        height: auto; /* Automatically adjust the height */
+  }
+  @media screen and (max-width: 500px) {
+    #posterEvento{
+       width: 80%
     }
-}
+  }
 @media screen and (max-width: 320px) {
    /*.jumbo-banner{
         max-height:83px; 
