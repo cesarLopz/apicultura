@@ -301,10 +301,15 @@ web:hover {
     color:#754404 !important;
 }
 .cuadro1{
-    background-color:#e0a306;
+    background-color:#b1cb43;
 }
 .cuadro2{
-    background-color: #754404;
+    background-color: #19733b;
+    color: #FFFFFF;
+}
+.cuadro3{
+    /* background-color: #492b03f5; */
+    background-color: #19733b;
     color: #FFFFFF;
 }
 
