@@ -3,16 +3,7 @@
 
 /*OWL CAROUSEL*/
 
-@media screen and (min-width: 500px) {
-    #posterEvento{
-      height: 500px
-    }
-  }
-  @media screen and (max-width: 500px) {
-    #posterEvento{
-       width: 80%
-    }
-  }
+
 .navigation {
     color: #0173f4 !important;
 	font-style: normal;
@@ -308,7 +299,7 @@ web:hover {
     color: #FFFFFF;
 }
 .cuadro3{
-    /* background-color: #492b03f5; */
+    /* background-color: #492b03f5; */ 
     background-color: #19733b;
     color: #FFFFFF;
 }
@@ -2367,6 +2358,16 @@ transition-delay:.2s;
         height: 220px
     }
 }
+@media screen and (min-width: 500px) {
+    #posterEvento{
+      height: 500px
+    }
+  }
+  @media screen and (max-width: 500px) {
+    #posterEvento{
+       width: 80%
+    }
+  }
 @media screen and (max-width: 320px) {
    /*.jumbo-banner{
         max-height:83px; 
