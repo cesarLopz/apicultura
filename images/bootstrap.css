@@ -6378,12 +6378,12 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
-.visible-xs,
+/* .visible-xs,
 .visible-sm,
 .visible-md,
 .visible-lg {
   display: none !important;
-}
+} */
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -6398,10 +6398,11 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
-@media (max-width: 767px) {
-  .visible-xs {
+
+@media screen and (max-width: 767px) {
+  /* .visible-xs {
     display: block !important;
-  }
+  } */
   table.visible-xs {
     display: table;
   }
@@ -6413,11 +6414,11 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .visible-xs-block {
     display: block !important;
   }
-}
+} */
 @media (max-width: 767px) {
   .visible-xs-inline {
     display: inline !important;
@@ -6428,10 +6429,10 @@ button.close {
     display: inline-block !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .visible-sm {
+ @media (min-width: 768px) and (max-width: 991px) {
+/*  .visible-sm {
     display: block !important;
-  }
+  } */
   table.visible-sm {
     display: table;
   }
@@ -6442,12 +6443,12 @@ button.close {
   td.visible-sm {
     display: table-cell !important;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
+} 
+/* @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-block {
     display: block !important;
   }
-}
+} */
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline {
     display: inline !important;
@@ -6462,13 +6463,13 @@ button.close {
   /*aca  esta el fayo del css*/
   /* .visible-md {
     display: block !important;
-  }  
+  }  */
   table.visible-md {
     display: table;
   }
   tr.visible-md {
     display: table-row !important;
-  }*//* aca probocan fallo las imagenes */
+  }/* aca probocan fallo las imagenes */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
@@ -6490,9 +6491,7 @@ button.close {
   }
 }
 @media (min-width: 1200px) {
-  .visible-lg {
-    display: block !important;
-  }
+  
   table.visible-lg {
     display: table;
   }
@@ -6524,16 +6523,16 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+/*@media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+ @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
   }
-}
+} */
 @media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;

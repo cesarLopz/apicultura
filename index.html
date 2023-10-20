@@ -88,34 +88,29 @@
       </div>
 	</div>
 <div class="row navbar navbar-default hidden-xs hidden-sm hidden-md visible-lg top-bar">
-        <div class="navbar-header">
+        <!-- <div class="navbar-header">
           <button type="button" class="navbar-toggle hidden-xs hidden-sm">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        </div>
+        </div> -->
         <!--nav-collapse -->
        
     <div class="navbar-collapse collapse hidden-xs hidden-sm hidden-md visible-lg">
     <ul class="nav navbar-nav top-main-bar col-lg-9 hidden-xs hidden-sm hidden-md visible-lg menu-head-left">
-	<li class="menu-top"><a href="organizadores.html">Comité Organizador</a></li>
-	<li class="menu-top"><a href="comite_cientifico.html">Comité Científico</a></li>
-	<li class="menu-top"><a href="cronograma.html">Programa</a></li>
 	<li class="menu-top"><a href="index.html">Inicio</a></li>
-	</ul>
-			
-	<ul class="nav navbar-nav navbar-right col-lg-3 hidden-xs hidden-sm hidden-md visible-lg menu-head-right">
-    <li class="menu-top"><a class="top-bar" target="blank" style="color:#FFFFFF !important;" href="inscripciones.html" title="Inscripciones">Inscripción</a></li>
-	<li class="menu-top"><a class="top-bar" style="color:#FFFFFF !important;" href="alojamiento.html" title="Alojamiento">Alojamiento</a></li>
+	<li class="menu-top"><a href="cronograma.html">Programa</a></li>
+	<li class="menu-top"><a href="alojamiento.html">Alojamiento</a></span></li>
+
 	</ul>
 	</div>
                 
         <!--/.nav-collapse -->        
           
 </div>
-<div class="row zapia-menu visible-xs visible-sm visible-md">
+<!-- <div class="row zapia-menu visible-xs visible-sm visible-md">
         <div class="customNavigation visible-xs visible-sm visible-md">
                 <a class="btn prev link-top-mobile"><span class="glyphicon glyphicon-menu-left"></span></a>
                 <a class="btn next link-top-mobile"><span class="glyphicon glyphicon-menu-right"></span></a>
@@ -126,17 +121,17 @@
 		<div class="item"><h5><a href="organizadores.html" class="nav-vert-links" title="Comité Organizador">Comité Organizador</a></h5></div></div>
 	<div class="owl-item" style="width: 180px;">
 		<div class="item"><h5><a href="comite_cientifico.html" class="nav-vert-links" title="Comité Científico">Comité Científico</a></h5></div></div>
-<!-- 	<div class="owl-item" style="width: 180px;">
+	<div class="owl-item" style="width: 180px;">
 		<div class="item"><h5><a href="cronograma.html" class="nav-vert-links" title="Programa">Programa</a></h5></div></div>
 	<div class="owl-item" style="width: 180px;">
-			<div class="item"><h5><a href="index.html" class="nav-vert-links" title="Inicio">Inicio</a></h5></div></div> -->
+			<div class="item"><h5><a href="index.html" class="nav-vert-links" title="Inicio">Inicio</a></h5></div></div>
 	</div></div>
     
     
     
     
     
-	</div></div>
+	</div></div> -->
     
  <div class="row visible-xs" id="menu-escritorio" style="display: none;">
      <div class="sidebar-nav ">
@@ -156,6 +151,7 @@
     <div class="navbar navbar-expand-lg navbar-light bg-light" id="mobile-nav">
 	<ul class="nav navbar-nav">
 		<li><a href="index.html" class="nav-vert-links" title="inicio">Inicio</a></li>
+		<li><a href="alojamiento.html" class="nav-vert-links" title="Alojamiento">Alojamiento</a></li>
 		<li><a href="inscripciones.html" class="nav-vert-links" title="inscripciones">Fechas</a></li>
 		<li><a href="cronograma.html" class="nav-vert-links" title="Cronograma">Cronograma</a></li>
 		<li><a href="apiturismo.html" class="nav-vert-links" title="Vida Apícola">Vida Apícola</a></li>
@@ -202,6 +198,7 @@
 	<div class="visible-sm visible-md visible-lg visible-xs" id="left-menu">
 	<ul class="nav nav-tabs nav-stacked left-menu visible-sm visible-md visible-lg">
 	<li><a href="inscripciones.html" class="nav-vert-links" title="inscripciones">Fechas e inscripciones</a></li>
+	<li><a href="alojamiento.html" class="nav-vert-links" title="Alojamiento">Alojamiento</a></li>
 	<li><a href="cronograma.html" class="nav-vert-links" title="Cronograma">Cronograma</a></li>
 	<li><a href="apiturismo.html" class="nav-vert-links" title="apiturismo">Vida Apícola</a></li>
 	<li><a href="lugar.html" class="nav-vert-links" title="apiturismo">Lugar</a></li>
@@ -216,10 +213,10 @@
 
 	<!-- acá empieza el contenido de cada pagina -->
     <h1 style="text-align: center;">Encuentro Apícola del Pacífico</h1><br>
-	<div class="col-sm-9 col-lg-9" id="contenido-de-pagina" style="display: flex;">
+	<div class="col-sm-9 col-lg-9" id="contenido-de-pagina" style="display: flex;justify-content: center">
 		
 		
-		<img src="images/poster_evento.jpg" alt="poster_evento" height="500px" >
+		<img src="images/poster_evento.jpg" alt="poster_evento" id="posterEvento" >
 			<div class="txt-home" style="margin-left: 20px;" id="parrafo">
       <p >El Encuentro Apícola del Pacífico, VIII Seminario Apícola de los Andes y II Boot Camp de Emprendedores Apícolas del SENA, reúne a Aprendices, instructores, investigadores, académicos y profesionales del campo apícola y disciplinas afines, con el propósito de fomentar un intercambio enriquecedor de conocimientos, experiencias y prácticas relacionadas con el sector. </p>
 
@@ -229,10 +226,12 @@
 	</div>
 	  
 </div>
-<div style="text-align: center; justify-content: center">
-	<p><br><img src="images/abejas.jpg"  alt="abejas" class="fotico"><img class="fotico" src="images/apicultores.jpg"  alt="apicultores"><img  src="images/iglesiaDeDia.jpg"  alt="iglesia" class="fotico"></p></div>
+
 	
-    </div></div>
+    </div>
+	<div style="text-align: center; justify-content: center" class="row">
+		<p><br><img src="images/abejas.jpg"  alt="abejas" class="fotico"><img class="fotico" src="images/apicultores.jpg"  alt="apicultores"><img  src="images/iglesiaDeDia.jpg"  alt="iglesia" class="fotico"></p></div>
+</div>
 
 
 <!-- aca comienza el pie de pagina -->

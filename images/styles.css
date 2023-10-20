@@ -3,7 +3,16 @@
 
 /*OWL CAROUSEL*/
 
-
+@media screen and (min-width: 500px) {
+    #posterEvento{
+      height: 500px
+    }
+  }
+  @media screen and (max-width: 500px) {
+    #posterEvento{
+       width: 80%
+    }
+  }
 .navigation {
     color: #0173f4 !important;
 	font-style: normal;
@@ -1948,13 +1957,18 @@ transition-delay:.2s;
     .col-sm-9 {
         display: block !important;
     }
+}@media screen and (min-width: 769px){
+.visible-lg {
+    display: block !important;
+  }
 }
-
 @media screen and (max-width: 768px) {
     #menu-escritorio{
         display: none !important;
     }
-    
+    #left-menu{
+        display: none;
+     }
     #menu-movil{
         display: block;
     }
@@ -2054,9 +2068,7 @@ transition-delay:.2s;
                   margin: 0px;
                   padding: 0px;
 	  }
-          #left-menu{
-             display: none;
-          }
+
           .navbar-brand {
               font-size: 14px;
               margin-left: 25px
