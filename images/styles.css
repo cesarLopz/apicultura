@@ -3,7 +3,10 @@
 
 /*OWL CAROUSEL*/
 
-
+.rounded-image {
+    border-radius: 50%;
+  }
+  
 .navigation {
     color: #0173f4 !important;
 	font-style: normal;
