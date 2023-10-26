@@ -561,6 +561,13 @@ margin:0px;
 line-height:1.2em;
 white-space:nowrap;
 }
+.texto-negro{
+/*     color: #5971f8;
+ */    color: #000;
+}
+.texto-blanco{
+    color: white;
+}
 .pos-solgan{
 	margin-left:29px;
 	padding-bottom:28px
