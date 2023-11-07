@@ -52,7 +52,18 @@
 	background-position: center center;
 	font-style: normal;
 }
-
+/* aca los estilos de RCIA */
+#basesdedatos{
+    max-width: 50%;
+    height: auto;
+}
+.link-normal{
+    color: #0173f4 !important;
+}
+.articulo{
+    max-width: 100%;
+    height: auto;
+}
 #owl-demo .item {
         background: #f3b20d;
         padding: 5px 0px;
@@ -1246,6 +1257,7 @@ font-size:22px;
 font-family: 'Roboto', sans-serif;
 color: #444444;
 font-size:16px;
+padding-left: 5px;
 
 }
 
@@ -1910,7 +1922,7 @@ transition-delay:.2s;
     }
     #social-netb,.fb-icon {font-size: 16px;}
     .tit-home-1 {font-size: 13px;} 
-    .tit-home {font-size: 14px;}
+/*     .tit-home {font-size: 14px;} */
     .dest-title{
         font-size: 14px;
 /*        font-weight: bold;*/
@@ -1962,9 +1974,7 @@ transition-delay:.2s;
 		max-height:185px;
 		background-size:100% 185px;
     }
-    .col-sm-9 {
-        display: block !important;
-    }
+    
 }@media screen and (min-width: 769px){
 .visible-lg {
     display: block !important;
@@ -1974,6 +1984,12 @@ transition-delay:.2s;
 }
 }
 @media screen and (max-width: 768px) {
+    #basesdedatos{
+        text-align: center ;
+    }
+    .col-sm-9 {
+        display: block !important;
+    }
     #menu-escritorio{
         display: none !important;
     }
@@ -1996,7 +2012,7 @@ transition-delay:.2s;
         font-size: 12px;  
     } 
     .tit-home {
-        font-size: 13px;
+        font-size: 23px;
         margin-bottom: 0px; 
         padding-bottom: 10px;
     }
@@ -2104,7 +2120,7 @@ transition-delay:.2s;
     #social-net,.socicon,.txt-home {font-size: 12px;}
     .tit-home-1 {font-size: 12px;} 
     .tit-home {
-        font-size: 13px;
+        /* font-size: 13px; */
         padding-bottom: 10px;
     }
     .dest-title{font-size: 12px;}
