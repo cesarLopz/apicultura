@@ -61,8 +61,9 @@
     color: #0173f4 !important;
 }
 .articulo {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
+    border-radius: 10%;
 }
 #owl-demo .item {
         background: #f3b20d;
@@ -584,6 +585,13 @@ white-space:nowrap;
 .pos-solgan{
 	margin-left:29px;
 	padding-bottom:28px
+}
+/* .justo{
+    text-align: justify;
+} */
+.img-centrada{
+    display: flex;
+    justify-content: center;
 }
 #menu
 {
@@ -1984,8 +1992,9 @@ transition-delay:.2s;
 }
 }
 @media screen and (max-width: 768px) {
-    #basesdedatos{
-        text-align: center ;
+    .img-responsive-center{
+        display: flex;
+        justify-content: center;
     }
     .col-sm-9 {
         display: block !important;
